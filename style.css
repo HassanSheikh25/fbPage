@@ -1,31 +1,84 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-#nav{
-    height: 60px;
-    width: 100%;
-    background-color: #18191A;
-    display: flex;
-    border-bottom: gray;
+#nav {
+  /* height: 60px; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /* width: 100%; */
+  background-color: #18191a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-#rightnav{
-    display: flex;
-    align-items: center;
+#leftnav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#logo{
-    margin-left: 10px;
-    margin-right: 10px;
-    height: 40px;
-    width: 40px;
-    border-radius: 50px;
+.navPic {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
 }
-#search{
-    padding-left: 10px;
-    height: 40px;
-    width: 230px;
-    border-radius: 50px;
-    background-color:#3A3B3C;
-    color: white;
-    font-size: 15px;
+#search {
+  padding-left: 10px;
+  height: 40px;
+  width: 230px;
+  border-radius: 50px;
+  background-color: #3a3b3c;
+  color: white;
+  font-size: 15px;
+}
+.navIcon {
+  font-size: 20px;
+  margin: 20px;
+  color: lightgray;
+}
+.bg:hover {
+  background-color: #3a3b3c;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.atagset{
+  display: flex; 
+  align-items: center; 
+  text-decoration: none;
+}
+@media screen and (max-width: 1000px) {
+  #nav{
+    flex-direction: column;
+  }
+  #rightnav{
+    padding-bottom: 20px;
+  }
+  #centrenav{
+    padding-bottom: 20px;
+  }
 }

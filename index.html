@@ -1,28 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Facebook</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <script src="icon.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <title>Facebook</title>
 </head>
+
 <body>
     <div id="nav">
-        <div id="rightnav">
-            <img id="logo" src="logo.png">
+        <div id="rightnav" style="display: flex;">
+            <a href="#"><img class="navPic" src="logo.png"></a>
             <form>
-                <input id="search" type="text" placeholder="&#xF002; Search Facebook" style="font-family:Arial, FontAwesome" />
+                <input id="search" type="text" placeholder="&#xF002; Search Facebook"
+                    style="font-family:Arial, FontAwesome" />
             </form>
         </div>
         <div id="centrenav">
-            <h1>tggff</h1>
+            <div class="bg tooltip">
+                <a class="navIcon" href="#"><i class="fas fa-home"></i></a>
+                <span class="tooltiptext">Home</span>
+            </div>
+            <div class="bg tooltip">
+                <a class="navIcon" href="#"><i class="fas fa-user-friends"></i></a>
+                <span class="tooltiptext">Friends</span>
+            </div>
+            <div class="bg tooltip">
+                <a class="navIcon" href="#"><i class="fas fa-video"></i></a>
+                <span class="tooltiptext">Watch</span>
+            </div>
+            <div class="bg tooltip">
+                <a class="navIcon" href="#"><i class="fas fa-users"></i></a>
+                <span class="tooltiptext">Groups</span>
+            </div>
+            <div class="bg tooltip">
+                <a class="navIcon" href="#"><i class="fas fa-gamepad"></i></a>
+                <span class="tooltiptext">Gaming</span>
+            </div>
         </div>
         <div id="leftnav">
-            <h1>qwer</h1>
+            <div class="bg">
+                <a class="atagset" href="#">
+                    <img class="navPic" src="userpic.jpg">
+                    <h4 style="color: white;">Username</h4>
+                </a>
+            </div>
+            <div class="bg tooltip">
+                <a class="navIcon" href="#"><i class="fab fa-elementor"></i></a>
+                <span class="tooltiptext">Menu</span>
+            </div>
+
+            <div class="bg tooltip">
+                <a class="navIcon" href="#"><i class="fas fa-sms"></i></i></a>
+                <span class="tooltiptext">Messenger</span>
+            </div>
+            <div class="bg tooltip">
+                <a class="navIcon" href="#"><i class="fas fa-bell"></i></a>
+                <span class="tooltiptext">Notification</span>
+            </div>
+            <div class="bg tooltip">
+                <a class="navIcon" href="#"><i class="fas fa-caret-down"></i></a>
+                <span class="tooltiptext">Account</span>
+            </div>
         </div>
     </div>
+
+   
 </body>
+
 </html>
