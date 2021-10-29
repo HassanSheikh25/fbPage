@@ -79,6 +79,12 @@
   #centrenav{
     padding-bottom: 20px;
   }
+  #c1{
+    display: none;
+  }
+}
+.m-t-10{
+  margin-top: 10px;
 }
 #contentDiv {
   display: flex;
@@ -116,6 +122,7 @@
 #contacts{
   display: flex; 
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .leftcontenticon{
