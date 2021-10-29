@@ -81,26 +81,24 @@
   }
 }
 #contentDiv {
-  height: 500px;
   display: flex;
   background-color: black;
 }
 
-#content1 {
+.content{
   flex-basis: 20%;
 }
 #mainContent {
   flex-basis: 60%;
 }
-#content2 {
-  flex-basis: 20%;
+.m-10{
+  margin: 10px;
 }
-
-#content1:hover{
+/* .content:hover{
   overflow-x: hidden;
   overflow-y: scroll;
-}
-::-webkit-scrollbar {
+} */
+/* ::-webkit-scrollbar {
   width: 5px;
   border: 1px solid #d5d5d5;
 }
@@ -113,4 +111,15 @@
 ::-webkit-scrollbar-thumb {
   border-radius: 50%;
   background: #b0b0b0;
+} */
+
+#contacts{
+  display: flex; 
+  justify-content: space-between;
+}
+
+.leftcontenticon{
+  font-size: 15px; 
+  color: lightgray; 
+  margin: 10px;
 }
