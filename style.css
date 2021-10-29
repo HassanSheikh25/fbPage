@@ -47,7 +47,6 @@
   position: relative;
   display: inline-block;
 }
-
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
@@ -62,7 +61,6 @@
   left: 50%;
   margin-left: -60px;
 }
-
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
@@ -81,4 +79,24 @@
   #centrenav{
     padding-bottom: 20px;
   }
+}
+
+.m-10{
+  margin: 10px;
+}
+
+#contentDiv {
+  height: 500px;
+  display: flex;
+  background-color: black;
+}
+
+#content1 {
+  flex-basis: 20%;
+}
+#mainContent {
+  flex-basis: 60%;
+}
+#content2 {
+  flex-basis: 20%;
 }
